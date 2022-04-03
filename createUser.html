@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="create.css">
+    <script src="https://kit.fontawesome.com/a6158f9e87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header-page">
+
+        <div class="container">
+            <ul class="header-top">
+                <li><i class="fa-solid fa-list"></i><span>List user</span></li>
+                <li class="list">
+                    <i class="fa-solid fa-user"></i>
+                </li>
+
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <h2>Create User</h2>
+        <div class="container">
+            <form class="form-create" action="">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Input your email" /></br>
+                <label for="first_name">First name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="Input your first name" /></br>
+                <label for="last_name">Last name</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Input your last name" /></br>
+            </form>
+            <a href="./index.html" onclick="insertUser()" class="btn-submit"> Submit</a>
+        </div>
+
+    </main>
+
+
+    <!-- <a href="./index.html">Go back</a> -->
+    <script src="./create.js"></script>
+</body>
+
+</html>

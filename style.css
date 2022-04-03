@@ -1,0 +1,129 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  border: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  /* border: none;
+    background: none; */
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Base */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+
+  margin: 10px 20px;
+  padding: 0 5px;
+}
+
+/* Header*/
+.header-page {
+  background-color: aquamarine;
+  padding: 5px 0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+span {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+/* Table */
+
+.table-list {
+  /* border: solid 0px; */
+  border-collapse: collapse;
+  border: #7ba360 solid 0.5px;
+  scroll-behavior: smooth;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-table {
+  background-color: #7ba360;
+}
+
+.header-table th {
+  width: 200px;
+  height: 30px;
+}
+
+.show-user td {
+  background-color: aquamarine;
+  /* height: 30px; */
+  border-bottom: solid #7ba360 0.5px;
+  border-left: solid #7ba360 0.5px;
+  border-right: solid #7ba360 0.5px;
+  padding-left: 5px;
+}
+
+/*btn*/
+.btn {
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  padding-left: 10px;
+
+}
+
+.btn-crud {
+  text-align: center;
+}
+
+.edit {
+  color: rgb(54, 255, 47);
+}
+
+.delete {
+  color: red;
+}
+
+.btn-create {
+  margin-bottom: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10%;
+  color: palevioletred;
+}
+
+@media only screen and (max-width:1023px) {}
+
+@media only screen and (max-width:767px) {}
+
+@media only screen and (max-width:479px) {}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a6158f9e87.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="header-page">
+
+        <div class="container">
+            <ul class="header-top">
+                <li><i class="fa-solid fa-list"></i><span>List user</span></li>
+                <li class="list">
+                    <input type="text" name="" id="search-user" placeholder="Search email" onkeyup="search()"
+                        class="input-search">
+                    <!-- <button onclick="search()"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+                    <i class="fa-solid fa-user"></i>
+                </li>
+
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <section class="section-user">
+
+            <div class="container">
+                <a href="./createUser.html"><button class="btn-create">Create User</button></a>
+                <div class="list-edit-wapper">
+                    <table class="table-list">
+                        <thead>
+                            <tr class="header-table">
+                                <th>#</th>
+                                <th>Full name</th>
+                                <th>Email</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tb-user" class="show-user"></tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
+
+<script src="user.js"></script>
+
+
+</html>
