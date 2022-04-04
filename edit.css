@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+    border: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    /* border: none;
+      background: none; */
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Base */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+
+    margin: 10px 20px;
+    padding: 0 5px;
+}
+
+.form-edit {
+    width: 400px;
+    height: 300px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid purple;
+}
+
+h3 {
+    text-align: center;
+}
+
+#editUser {
+    margin-top: 20px;
+    width: 60px;
+    height: 40px;
+    background-color: rgb(49, 202, 49);
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-edit {
+    border: 0.5px solid #333;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
